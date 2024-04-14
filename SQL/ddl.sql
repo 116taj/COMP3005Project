@@ -120,8 +120,8 @@ CREATE TABLE ClassMembers(
 
 CREATE TABLE AchievementMembers(
     member_id INT,
-    class_id INT,
-    PRIMARY KEY (member_id,class_id),
+    achievement_id INT,
+    PRIMARY KEY (member_id,achievement_id),
     FOREIGN KEY (member_id) REFERENCES Members(member_id),
     FOREIGN KEY (achievement_id) REFERENCES Achievements(achievement_id)
 );
