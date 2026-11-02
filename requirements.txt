@@ -1,0 +1,4 @@
+# implementation.py imports psycopg2 and connects to a local PostgreSQL
+# database named COMP3005 on 127.0.0.1:5432. Run SQL/ddl.sql then SQL/dml.sql
+# against that database first.
+psycopg2-binary
